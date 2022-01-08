@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files = %w[cloudconvert.gemspec LICENSE.txt README.md] + Dir["lib/**/*.rb"]
   spec.license = "MIT"
   spec.require_paths = %w[lib]
-  spec.required_ruby_version = ">= 2.7"
+  spec.required_ruby_version = ">= 2.5.1"
   spec.add_dependency "activesupport", ">= 4.0"
   spec.add_dependency "down", "~> 5.0"
   spec.add_dependency "equalizer"
@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "forwardable"
   spec.add_dependency "json"
   spec.add_dependency "memoizable", "~> 0.4"
-  spec.add_dependency "marcel", "~> 1.0.0"
+  spec.add_dependency "marcel", "~> 0.3.1"
   spec.add_dependency "openssl"
   spec.add_dependency "ostruct"
   spec.add_dependency "schemacop", "~> 2.4"
